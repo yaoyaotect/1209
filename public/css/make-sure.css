@@ -1,0 +1,34 @@
+body {
+  background: #b2b2b2;
+  padding: 0;
+  margin: 0;
+}
+.make_box {
+  width: 270px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+}
+.make_box:after {
+  content: "";
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  z-index: 5;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #efefef;
+}
+.make_box .make_finish {
+  font-size: 12px;
+  display: inline-block;
+  padding: 4% 23%;
+  text-align: center;
+}
+.make_box .make_sure {
+  text-align: center;
+  color: #ed692b;
+  font-weight: bold;
+}
