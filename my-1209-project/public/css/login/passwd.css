@@ -74,7 +74,7 @@ body {
   background: url("../../img/content_password_icon@2x.png") no-repeat left 10px center;
   background-size: 17px 35%;
 }
-.form-list .form-cell .form-cell-button {
+.form-list .form-cell #input {
   position: absolute;
   top: 13px;
   right: 20px;

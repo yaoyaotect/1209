@@ -2,86 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe5e462-2bad-4209-b50f-5bb1e32f2be5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/1209.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/AoSnow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/agent.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/index/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/info/info_detail.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/info/info_index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/info/loading.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/loading.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/login/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/login/passwd.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/login/register.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/make-sure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/me/expired_housing.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/msg/msg_demand.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/msg/news_demand.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/msg/notice-demand.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/msg_demand.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/banner_icon_point_nor@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/banner_icon_point_press@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/bottom_icon05@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/bottom_nor_icon01@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/bottom_nor_icon02@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/bottom_nor_icon03@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/bottom_nor_icon04@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/bottom_press_icon02@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/content_ID_icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/content_icon01_nor@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/content_img_logo@2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/content_password_icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/content_position_icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/content_verify_icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/nav_back_icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/nav_icon_down@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/nav_icon_search@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/index/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery-1.12.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/login/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/msg/news_demand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/libs/neat/neat.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/libs/zepto/touch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/minjs/index/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/agent.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/index/index.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/info/info_detail.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/info/info_index.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/loading.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/login/login.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/login/passwd.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/login/register.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/make-sure.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/me/expired_housing.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/msg/news_demand.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylus/msg_demand.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/agent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/dfdf.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/info_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/loading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/login/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/login/passwd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/login/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/make-sure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/me/expired_housing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/msg/news_demand.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/笔记/emorrem.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/笔记/index.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-1209-project/public/js/login/passwd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-1209-project/public/js/login/register.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/public/css/loading.css" afterPath="$PROJECT_DIR$/my-1209-project/public/css/loading.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/public/css/login/passwd.css" afterPath="$PROJECT_DIR$/my-1209-project/public/css/login/passwd.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/public/js/login/login.js" afterPath="$PROJECT_DIR$/my-1209-project/public/js/login/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/public/libs/zepto/touch.js" afterPath="$PROJECT_DIR$/my-1209-project/public/libs/zepto/touch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/stylus/loading.styl" afterPath="$PROJECT_DIR$/my-1209-project/stylus/loading.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/stylus/login/login.styl" afterPath="$PROJECT_DIR$/my-1209-project/stylus/login/login.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/stylus/login/passwd.styl" afterPath="$PROJECT_DIR$/my-1209-project/stylus/login/passwd.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/views/login/login.html" afterPath="$PROJECT_DIR$/my-1209-project/views/login/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/views/login/passwd.html" afterPath="$PROJECT_DIR$/my-1209-project/views/login/passwd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-1209-project/views/login/register.html" afterPath="$PROJECT_DIR$/my-1209-project/views/login/register.html" />
     </list>
     <ignored path="1209.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,9 +38,39 @@
     <favorites_list name="1209" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-1209-project/README.md">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="passwd.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-1209-project/views/login/passwd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.046554934">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="passwd.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-1209-project/stylus/login/passwd.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="passwd.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-1209-project/public/js/login/passwd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="验证码.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../学习H5/第一天/验证码.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -118,8 +84,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -164,6 +130,17 @@
         <option value="$PROJECT_DIR$/stylus/me/expired_housing.styl" />
         <option value="$PROJECT_DIR$/views/me/expired_housing.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/my-1209-project/stylus/loading.styl" />
+        <option value="$PROJECT_DIR$/my-1209-project/views/loading.html" />
+        <option value="$PROJECT_DIR$/my-1209-project/public/libs/zepto/touch.js" />
+        <option value="$PROJECT_DIR$/my-1209-project/views/login/login.html" />
+        <option value="$PROJECT_DIR$/my-1209-project/stylus/login/login.styl" />
+        <option value="$PROJECT_DIR$/my-1209-project/public/js/login/login.js" />
+        <option value="$PROJECT_DIR$/my-1209-project/public/js/login/register.js" />
+        <option value="$PROJECT_DIR$/my-1209-project/views/login/register.html" />
+        <option value="$PROJECT_DIR$/my-1209-project/views/login/passwd.html" />
+        <option value="$PROJECT_DIR$/my-1209-project/stylus/login/passwd.styl" />
+        <option value="$PROJECT_DIR$/my-1209-project/public/js/login/passwd.js" />
       </list>
     </option>
   </component>
@@ -177,10 +154,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="255" />
-    <option name="y" value="248" />
-    <option name="width" value="1936" />
-    <option name="height" value="1037" />
+    <option name="x" value="252" />
+    <option name="y" value="133" />
+    <option name="width" value="1396" />
+    <option name="height" value="755" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -207,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,23 +192,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1209" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1209" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-1209-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files" />
+        <subPane subId="Project Files" />
+        <subPane subId="Default" />
+        <subPane subId="Tests" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,26 +270,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="255" y="248" width="1936" height="1037" extended-state="0" />
-    <editor active="true" />
+    <frame x="252" y="133" width="1396" height="755" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24276528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34464556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1271" y="610" width="83" height="30" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -360,6 +332,102 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my-1209-project/views/login/passwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/stylus/login/passwd.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/public/js/login/passwd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../学习H5/第一天/验证码.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/views/login/passwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/stylus/login/passwd.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/public/js/login/passwd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../学习H5/第一天/验证码.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/views/login/passwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/stylus/login/passwd.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/public/js/login/passwd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../学习H5/第一天/验证码.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16013825">
@@ -369,8 +437,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-1209-project/README.md">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15356265">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/stylus/loading.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/public/libs/zepto/touch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="148" column="23" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/public/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/stylus/login/login.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5384616">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/views/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.766666">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/public/js/login/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14400922">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/views/loading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56682575">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/public/js/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48156682">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/views/login/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89498806">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../学习H5/第一天/验证码.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/public/js/login/passwd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/stylus/login/passwd.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-1209-project/views/login/passwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046554934">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>

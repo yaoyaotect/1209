@@ -11,14 +11,14 @@ body {
   height: 120px;
   margin-top: -60px;
   margin-left: -60px;
-  background: url("../../img/content_img_logo@2x.gif") no-repeat center;
+  background: url("../img/content_img_logo@2x.gif") no-repeat center;
   background-size: 100%;
 }
 .copy {
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: #657930;
+  color: #646464;
   text-align: center;
   line-height: 50px;
 }

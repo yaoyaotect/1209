@@ -10,7 +10,7 @@
 
     function swipeDirection(x1, x2, y1, y2) {
         return Math.abs(x1 - x2) >=
-        Math.abs(y1 - y2) ? (x1 - x2 > 0 ? 'Left' : 'Right') : (y1 - y2 > 0 ? 'Up' : 'Down')
+               Math.abs(y1 - y2) ? (x1 - x2 > 0 ? 'Left' : 'Right') : (y1 - y2 > 0 ? 'Up' : 'Down')
     }
 
     function longTap() {
@@ -37,13 +37,13 @@
 
     function isPrimaryTouch(event){
         return (event.pointerType == 'touch' ||
-            event.pointerType == event.MSPOINTER_TYPE_TOUCH)
-            && event.isPrimary
+                event.pointerType == event.MSPOINTER_TYPE_TOUCH)
+               && event.isPrimary
     }
 
     function isPointerEventType(e, type){
         return (e.type == 'pointer'+type ||
-        e.type.toLowerCase() == 'mspointer'+type)
+                e.type.toLowerCase() == 'mspointer'+type)
     }
 
     $(document).ready(function(){
@@ -63,9 +63,9 @@
                     touch.el.trigger('swipe'+ swipeDirectionFromVelocity)
                 }
             })
-            .on('touchstart MSPointerDown pointerdown', function(e){
+            .on('touchstart', function(e){
                 if((_isPointerType = isPointerEventType(e, 'down')) &&
-                    !isPrimaryTouch(e)) return
+                   !isPrimaryTouch(e)) return
                 firstTouch = _isPointerType ? e : e.touches[0]
                 if (e.touches && e.touches.length === 1 && touch.x2) {
                     // Clear out touch movement data if we have it sticking around
@@ -86,9 +86,9 @@
                 // adds the current touch contact for IE gesture recognition
                 if (gesture && _isPointerType) gesture.addPointer(e.pointerId)
             })
-            .on('touchmove MSPointerMove pointermove', function(e){
+            .on('touchmove', function(e){
                 if((_isPointerType = isPointerEventType(e, 'move')) &&
-                    !isPrimaryTouch(e)) return
+                   !isPrimaryTouch(e)) return
                 firstTouch = _isPointerType ? e : e.touches[0]
                 cancelLongTap()
                 touch.x2 = firstTouch.pageX
@@ -97,9 +97,9 @@
                 deltaX += Math.abs(touch.x1 - touch.x2)
                 deltaY += Math.abs(touch.y1 - touch.y2)
             })
-            .on('touchend MSPointerUp pointerup', function(e){
+            .on('touchend', function(e){
                 if((_isPointerType = isPointerEventType(e, 'up')) &&
-                    !isPrimaryTouch(e)) return
+                   !isPrimaryTouch(e)) return
                 cancelLongTap()
 
                 // swipe
