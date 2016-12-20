@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scable=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<title>选房网APP-公司</title>
+		<link rel="stylesheet" href="../../public/css/login/passwd.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<i class="icon-back"></i>
+			<span class="header_title">忘记密码</span>
+			<span class="header_handing">登陆</span>
+		</header>
+		<article class="form-list">
+			<section class="form-cell">
+				<span class="form-cell-name cell-code">账号：</span>
+				<input class="form-cell-input" type="text" placeholder="请输入您的手机号码"/>
+			</section>
+			<section class="form-cell">
+				<span class="form-cell-name cell-ident">验证码：</span>
+				<input class="form-cell-input" type="text" placeholder="请输入验证码"/>
+				<input type="button" value="发送验证码" id="input" onclick="setNewsubmit(event,this)"/>
+			</section>
+			<section class="form-cell">
+				<span class="form-cell-name cell-passwd">密码：</span>
+				<input class="form-cell-input" type="password" placeholder="请输入新的登录密码"/>
+			</section>
+			<section class="form-cell">
+				<span class="form-cell-name cell-passwd">密码：</span>
+				<input class="form-cell-input" type="password" placeholder="请输入新的登录密码"/>
+			</section>
+		</article>
+		
+		<div class="bt_box">
+			<button class="btn_login">确定</button>
+		</div>
+		<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+		<script src="../../public/libs/zepto/touch.js"></script>
+		<script src="../../public/js/login/passwd.js"></script>
+	</body>
+
+</html>
