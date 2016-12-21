@@ -79,7 +79,7 @@ body {
   background: url("../../img/content_position_icon@2x.png") no-repeat left 10px center;
   background-size: 17px 35%;
 }
-.form-list .form-cell .form-cell-button {
+.form-list .form-cell #input {
   position: absolute;
   top: 13px;
   right: 20px;
@@ -124,6 +124,7 @@ body {
   color: #fff;
   font-size: 1.1rem;
   line-height: 10px;
+  position: relative;
 }
 .bt_box .btn_foot {
   color: #646464;
@@ -134,12 +135,17 @@ body {
 }
 .identity_selection {
   width: 70px;
-  height: 155px;
+  height: 0;
   background-color: #a3a3a3;
   position: absolute;
+  margin-top: 285px;
+  margin-left: 280px;
+  z-index: 5;
+  top: 10px;
   border-radius: 5px;
   color: #fff;
   text-align: center;
+  overflow: hidden;
 }
 .identity_selection .identity_s {
   position: relative;

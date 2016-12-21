@@ -4,6 +4,9 @@
 $(".icon-back" ).on('tap',function(){
 	window.location.href='../../views/login/login.html';
 });
+$(".header_handing").on('tap',function(){
+	window.location.href='../../views/login/login.html';
+});
 
 var wait=60;
 function time(o){
@@ -14,6 +17,7 @@ function time(o){
 	}else{
 		o.setAttribute("disabled",true);
 		o.value="重新发送("+wait+")";
+		$("#input").css("background-color","#C7C7C7");
 		wait--;
 		setTimeout(function(){
 			time(o)

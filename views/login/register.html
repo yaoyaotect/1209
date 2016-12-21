@@ -12,7 +12,7 @@
 		<header class="header">
 			<i class="icon-back"></i>
 			<span class="header_title">注册</span>
-			<span class="header_handing">登陆</span>
+			<span class="header_handing">登录</span>
 		</header>
 		<article class="form-list">
 			<section class="form-cell">
@@ -22,7 +22,7 @@
 			<section class="form-cell">
 				<span class="form-cell-name cell-ident">验证码：</span>
 				<input class="form-cell-input" type="text" placeholder="请输入验证码"/>
-				<button class="form-cell-button">获取验证码</button>
+				<input type="button" value="发送验证码" id="input"/>
 			</section>
 			<section class="form-cell">
 				<span class="form-cell-name cell-passwd">密码：</span>
@@ -35,7 +35,7 @@
 			<section class="form-cell">
 				<span class="form-cell-name cell-identity">身份：</span>
 				<input class="form-cell-input" type="password" placeholder="经纪人"/>
-				<div class="icon-down"></div>
+				<div class="icon-down" onclick="onClick()"></div>
 			</section>
 		</article>
 
@@ -47,7 +47,7 @@
 			<p class="identity_s">经纪人</p>
 			<p class="identity_s">小业主</p>
 			<p class="identity_s">运营商</p>
-			<p class="identity_s">代理商</p>
+			<p class="identity_s" id="agent">代理商</p>
 			<p class="identity_s">开发商</p>
 		</div>
 		<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
