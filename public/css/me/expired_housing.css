@@ -56,7 +56,7 @@ body {
 .demand_cells .demand_cell .demand-title .text-show {
   font-size: 12px;
   color: #646464;
-  margin-left: 35px;
+  margin-left: 55px;
   font-style: normal;
 }
 .demand_cells .demand_cell .demand-title .text-pu {
@@ -71,7 +71,7 @@ body {
   border-radius: 5px;
   border: 1px solid #ed692b;
   width: 60px;
-  height: 20px;
+  height: 18px;
   font-size: 13px;
   line-height: 20px;
   text-align: center;
@@ -90,4 +90,5 @@ body {
 .demand_cells .demand_cell .demand-title .text-brokerage {
   color: #646464;
   font-style: normal;
+  margin-left: 24px;
 }
