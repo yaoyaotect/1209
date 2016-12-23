@@ -9,16 +9,19 @@
 	</head>
 	<body>
 		<div class="logo"></div>
-		用户名：<input type="text" id="user">
-		密码：<input type="text" id="passwd">
-		<button id="send">登录</button>
+		用户名：<input type="text" id="user"><br/>
+		密   码：<input type="text" id="passwd"><br/><br/>
+		<button id="send" style="margin-left:100px; ">登录</button>
 		<div class="copy">Copyright&copy;2016</div>
 		
 		<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
 		<script>
-			window.onload=function(){
+			/*window.onload=function(){
 				location.href='./login/login.html';   //等前面一个页面加载网之后加载这个
-			};
+			};*/
+		$("#send" ).on('click',function(){
+
+		})
 		$("#send" ).on("click",function(){
 			var username=$("#user").val()
 			var passwd=$("#passwd" ).val()
@@ -31,11 +34,13 @@
 					passwd:passwd
 				},
 				success:function(result){
-					console.log('result',result)
+					console.log('result',result);
 					if(result.code==1){
-						alert("登录成功")
+						alert("登录成功");
+						location.href='../login/login.html';
 					}else{
 						alert(result.msg)
+
 					}
 				}
 			})

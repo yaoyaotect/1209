@@ -34,7 +34,7 @@ gulp.task('browserSync',['nodemon'],function(){
 			target: 'http://127.0.0.1:16940'
 		},
 		files: ['*'],
-		port:9254,
+		port:9254,   //自己访问的端口号
 		open:false
 
 	})

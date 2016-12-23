@@ -36,7 +36,7 @@
 		window.location.href ='../login/register.html';
 	});
 	$(".icon-back" ).on('tap',function(){
-		window.location.href='../login/login.html';
+		window.location.href='../../../loading.html';
 		console.log(1)
 	});
 	//<img src="../../img/nav_back_icon@2x.png" border="0" onlick="javascript:history.back(-1);">
