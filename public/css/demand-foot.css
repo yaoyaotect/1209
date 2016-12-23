@@ -1,0 +1,63 @@
+.demand-foot {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  border-top: 1px solid #d6d7dc;
+}
+.demand-foot .demand-home-page {
+  width: 20%;
+  height: 46%;
+  background: url("../../img/bottom_nor_icon04@2x.png") no-repeat center;
+  background-size: 23px 23px;
+  margin: 0;
+  float: left;
+}
+.demand-foot .page-one {
+  color: #b4b4b4;
+  line-height: 82px;
+  margin-left: 24px;
+}
+.demand-foot .me {
+  margin-left: 29px;
+}
+.demand-foot .infomation {
+  color: $orange;
+}
+.demand-foot .demand-order {
+  width: 20%;
+  height: 46%;
+  background: url("../../img/bottom_nor_icon03@2x.png") no-repeat center;
+  background-size: 23px 23px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.demand-foot .demand-add {
+  width: 20%;
+  height: 64%;
+  background: url("../../img/bottom_icon05@2x.png") no-repeat top 8px center;
+  background-size: 46px 42px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.demand-foot .demand-infomation {
+  width: 20%;
+  height: 46%;
+  background: url("../../img/bottom_press_icon02@2x.png") no-repeat center;
+  background-size: 23px 23px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.demand-foot .demand-me {
+  width: 20%;
+  height: 46%;
+  background: url("../../img/bottom_nor_icon01@2x.png") no-repeat center;
+  background-size: 23px 23px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}

@@ -2,10 +2,10 @@
  * Created by Administrator on 2016/12/19 0019.
  */
 $(".icon-back").on('tap',function(){
-	window.location.href='../../views/login/login.html';
+	window.location.href='../../login/login.html';
 });
 $(".header_handing").on('tap',function(){
-	window.location.href='../../views/login/login.html';
+	window.location.href='../../login/login.html';
 });
 $("#agent").on('tap',function(){
 	window.location.href='../../views/agent.html';

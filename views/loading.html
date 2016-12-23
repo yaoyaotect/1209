@@ -9,14 +9,37 @@
 	</head>
 	<body>
 		<div class="logo"></div>
+		用户名：<input type="text" id="user">
+		密码：<input type="text" id="passwd">
+		<button id="send">登录</button>
 		<div class="copy">Copyright&copy;2016</div>
 		
 		<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
-		<script src="//cdn.bootcss.com/angular.js/2.0.0-beta.17/angular2-polyfills.js"></script>
 		<script>
 			window.onload=function(){
 				location.href='./login/login.html';   //等前面一个页面加载网之后加载这个
-			}
+			};
+		$("#send" ).on("click",function(){
+			var username=$("#user").val()
+			var passwd=$("#passwd" ).val()
+
+			$.ajax({
+				url:'/api/user/login',
+				type: 'POST',
+				data:{
+					username:username,
+					passwd:passwd
+				},
+				success:function(result){
+					console.log('result',result)
+					if(result.code==1){
+						alert("登录成功")
+					}else{
+						alert(result.msg)
+					}
+				}
+			})
+		})
 		</script>
 	</body>
 </html>

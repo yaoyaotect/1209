@@ -30,13 +30,13 @@
 	//});
 //注册，忘记密码链接跳转
 	$(".bt-passwd" ).on('tap', function(){
-		window.location.href = '../../views/login/passwd.html';
+		window.location.href = '../login/passwd.html';
 	});
 	$(".bt-reg" ).on('tap',function(){
-		window.location.href ='../../views/login/register.html';
+		window.location.href ='../login/register.html';
 	});
 	$(".icon-back" ).on('tap',function(){
-		window.location.href='../../views/login/login.html';
+		window.location.href='../login/login.html';
 		console.log(1)
 	});
 	//<img src="../../img/nav_back_icon@2x.png" border="0" onlick="javascript:history.back(-1);">

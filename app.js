@@ -3,6 +3,7 @@
  */
 var path=require('path');
 var express=require('express');
+var proxy=require('http-proxy-middleware');
 //引入转发请求插件
 //var proxy=require('http-proxy-middleware');
 //实例express
@@ -18,10 +19,19 @@ app.use('/public',express.static(publicPath));
 app.get('/login',function(req,res){
 	res.send('ha ha ha');
 });
+//定义通过/api 访问的请求，转发到指定路径
+app.use('/api',proxy({
+	target:'http://guanjp.com:9805',
+	changeOrigin:true,
+	ws:true,
+	cookieRewrite:true,
+	pathRewrite: {
+		'^/api':'/'
+	}
+}));
 
 
-
-app.listen(9777,function(){
-	console.log('server run at port 9888')
+app.listen(16940,function(){
+	console.log('server run at port 16940')
 });
 module.exports=app;
