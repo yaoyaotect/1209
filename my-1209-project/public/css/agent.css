@@ -1,0 +1,137 @@
+body {
+  background-color: #efeff4;
+  font-size: 14px;
+}
+.header {
+  height: 35px;
+  line-height: 35px;
+  background-color: #fff;
+}
+.header .icon-back {
+  position: absolute;
+  top: 2;
+  left: 2;
+  display: inline-block;
+  width: 20px;
+  height: 36px;
+  background: url("../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 10px 16px;
+}
+.header .header_title {
+  width: 100%;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ed692b;
+  text-align: center;
+}
+.maybe {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  padding: 2px 5px;
+  color: #b4b4b4;
+}
+.form-list {
+  width: 100%;
+  padding: 5% 0 1% 0;
+  background: #fff;
+}
+.form-list .form-cell-head {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #878787;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-list .form-cell-head:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: -50%;
+  z-index: 5;
+  display: block;
+  height: 1px;
+  width: 200%;
+  background-color: #efefef;
+}
+.form-list .form-cell {
+  position: relative;
+  height: 42px;
+  line-height: 50px;
+  background: #fff;
+}
+.form-list .form-cell .form-cell-input {
+  background-color: #efeff4;
+  position: absolute;
+  left: 56px;
+  width: 230px;
+  height: 31px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  z-index: 20;
+}
+.form-list #number {
+  margin-bottom: -50px;
+}
+.optiona {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  padding: 2px 5px;
+  color: #b4b4b4;
+}
+.from-footer {
+  width: 100%;
+  padding: 3% 0 1% 0;
+  background: #fff;
+}
+.from-footer .form-cel-input {
+  background-color: #efeff4;
+  position: absolute;
+  left: 56px;
+  width: 230px;
+  height: 31px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  z-index: 20;
+}
+.form-three {
+  display: flex;
+  margin-top: 56px;
+}
+.form-three .from-dimension {
+  display: inline-block;
+  width: 110px;
+  height: 70px;
+  background-color: #878787;
+  border-radius: 5px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+}
+.bt_box {
+  height: 40px;
+  padding: 0 15px;
+}
+.bt_box .btn_login {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ea5404;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 10px;
+  margin-top: 40px;
+}

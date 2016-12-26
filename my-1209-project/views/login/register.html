@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,
+			maximum-scale=1,minmum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<title>选房网APP-公司</title>
+		<link rel="stylesheet" href="../../public/css/login/register.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<i class="icon-back"></i>
+			<span class="header_title">注册</span>
+			<span class="header_handing">登录</span>
+		</header>
+		<article class="form-list">
+			<section class="form-cell">
+				<span class="form-cell-name cell-code">账号：</span>
+				<input class="form-cell-input" type="text" placeholder="请输入您的手机号码"/>
+			</section>
+			<section class="form-cell">
+				<span class="form-cell-name cell-ident">验证码：</span>
+				<input class="form-cell-input" type="text" placeholder="请输入验证码"/>
+				<input type="button" value="发送验证码" id="input"/>
+			</section>
+			<section class="form-cell">
+				<span class="form-cell-name cell-passwd">密码：</span>
+				<input class="form-cell-input" type="password" placeholder="请输入新的登录密码"/>
+			</section>
+			<section class="form-cell">
+				<span class="form-cell-name cell-passwd">密码：</span>
+				<input class="form-cell-input" type="password" placeholder="请输入新的登录密码"/>
+			</section>
+			<section class="form-cell">
+				<span class="form-cell-name cell-identity">身份：</span>
+				<input class="form-cell-input" type="password" placeholder="经纪人"/>
+				<div class="icon-down" onclick="onClick()"></div>
+			</section>
+		</article>
+
+		<div class="bt_box">
+			<button class="btn_login">注册</button>
+			<p class="btn_foot">注册即代表同意<a href="#">《活力矩阵用户协议》</a></p>
+		</div>
+		<div class="identity_selection">
+			<p class="identity_s">经纪人</p>
+			<p class="identity_s">小业主</p>
+			<p class="identity_s">运营商</p>
+			<p class="identity_s" id="agent">代理商</p>
+			<p class="identity_s">开发商</p>
+		</div>
+		<script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+		<script src="../../public/libs/zepto/touch.js"></script>
+		<script src="../../public/js/login/register.js"></script>
+	</body>
+</html>

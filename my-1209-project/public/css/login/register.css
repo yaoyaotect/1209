@@ -1,0 +1,164 @@
+body {
+  background-color: #efefef;
+  font-size: 14px;
+}
+.header {
+  height: 35px;
+  line-height: 35px;
+  background-color: #fff;
+}
+.header .icon-back {
+  position: absolute;
+  top: 2;
+  left: 2;
+  display: inline-block;
+  width: 20px;
+  height: 36px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 10px 16px;
+}
+.header .header_title {
+  width: 100%;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ed692b;
+  text-align: center;
+}
+.header .header_handing {
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  display: inline-block;
+}
+.form-list {
+  margin-top: 15px;
+  width: 100%;
+  height: 80px;
+}
+.form-list .form-cell {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+}
+.form-list .form-cell:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 10px;
+  z-index: 5;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #efefef;
+}
+.form-list .form-cell-name {
+  display: inline-block;
+  width: 50px;
+  padding-left: 40px;
+  background: url("../../img/content_ID_icon@2x.png") no-repeat left 10px center;
+  background-size: 25%;
+}
+.form-list .form-cell-name.cell-code {
+  width: 68px;
+  background-size: 18%;
+}
+.form-list .form-cell-name.cell-ident {
+  width: 70px;
+  background: url("../../img/content_verify_icon@2x.png") no-repeat left 10px center;
+  background-size: 17px 35%;
+}
+.form-list .form-cell-name.cell-passwd {
+  width: 68px;
+  background: url("../../img/content_password_icon@2x.png") no-repeat left 10px center;
+  background-size: 17px 35%;
+}
+.form-list .form-cell-name.cell-identity {
+  width: 70px;
+  background: url("../../img/content_position_icon@2x.png") no-repeat left 10px center;
+  background-size: 17px 35%;
+}
+.form-list .form-cell #input {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  width: 80px;
+  height: 25px;
+  background-color: #ed692b;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 10px;
+}
+.form-list .form-cell .icon-down {
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 10px;
+  transform: rotate(-90deg);
+  display: inline-block;
+  width: 20px;
+  height: 36px;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 10px 16px;
+}
+.form-list .form-cell .form-cell-input {
+  height: 38px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.bt_box {
+  height: 40px;
+  padding: 0 15px;
+  margin-top: 210px;
+}
+.bt_box .btn_login {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c7c7c7;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 10px;
+  position: relative;
+}
+.bt_box .btn_foot {
+  color: #646464;
+  text-align: center;
+}
+.bt_box .btn_foot a {
+  color: #ea6229;
+}
+.identity_selection {
+  width: 70px;
+  height: 0;
+  background-color: #a3a3a3;
+  position: absolute;
+  margin-top: 285px;
+  margin-left: 280px;
+  z-index: 5;
+  top: 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.identity_selection .identity_s {
+  position: relative;
+  top: -2px;
+}
+.identity_selection .identity_s:after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: -1px;
+  z-index: 5;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
